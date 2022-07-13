@@ -33,7 +33,7 @@ public class HeadsOrTails
 		    }
 	    }
 	System.out.println("Heads: " + count_h + ", Tails: " + count_t);
-	if(count_h > count_t) System.out.println("You won");
-        else System.out.println("You lost");
+	if(count_h > count_t) System.out.println(name + " won!");
+        else System.out.println(name + " lost");
     }
 }
