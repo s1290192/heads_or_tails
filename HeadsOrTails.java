@@ -5,9 +5,17 @@ public class HeadsOrTails
 {
     public static void main(String[] args)
     {
+	String name;
 	int coin, count_h = 0, count_t = 0;
 	Random ran = new Random();
-	System.out.println("Tossing coin...");
+
+	System.out.println("Who are you?");
+        System.out.print(">");
+        Scanner sc = new Scanner(System.in);
+	name = sc.next();
+	System.out.println("Hello," + name + "!");
+	
+	    System.out.println("Tossing coin...");
 	for(int i = 1; i <= 3; i++)
 	    {
 		System.out.print("Round " + i + ": ");
